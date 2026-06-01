@@ -7272,7 +7272,6 @@ dependencies = [
  "sha3",
  "slow_primes",
  "solana-client",
- "solana-program",
  "solana-sdk",
  "strum 0.24.1",
  "thiserror 1.0.69",
