@@ -1938,15 +1938,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "fast-math"
-version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2465292146cdfc2011350fe3b1c616ac83cf0faeedb33463ba1c332ed8948d66"
-dependencies = [
- "ieee754",
-]
-
-[[package]]
 name = "fastbloom"
 version = "0.14.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2640,12 +2631,6 @@ dependencies = [
  "icu_normalizer",
  "icu_properties",
 ]
-
-[[package]]
-name = "ieee754"
-version = "0.2.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9007da9cacbd3e6343da136e98b0d2df013f553d35bdec8b518f07bea768e19c"
 
 [[package]]
 name = "im"
@@ -3834,21 +3819,8 @@ name = "pythnet-sdk"
 version = "2.3.2"
 dependencies = [
  "anchor-lang 1.0.2",
- "bincode",
  "borsh 1.6.1",
- "bytemuck",
- "byteorder",
- "fast-math",
- "hex",
- "libsecp256k1 0.7.1",
- "rand 0.8.5",
- "rustc_version",
  "serde",
- "serde_wormhole",
- "sha3",
- "slow_primes",
- "thiserror 1.0.50",
- "wormhole-vaas-serde",
 ]
 
 [[package]]
@@ -4805,15 +4777,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4614a76b2a8be0058caa9dbbaf66d988527d86d003c11a94fbd335d7661edcef"
 dependencies = [
  "autocfg",
-]
-
-[[package]]
-name = "slow_primes"
-version = "0.1.14"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "58267dd2fbaa6dceecba9e3e106d2d90a2b02497c0e8b01b8759beccf5113938"
-dependencies = [
- "num",
 ]
 
 [[package]]
