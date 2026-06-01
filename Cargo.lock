@@ -373,6 +373,7 @@ dependencies = [
  "anchor-derive-accounts",
  "anchor-derive-serde",
  "anchor-derive-space",
+ "anchor-lang-idl",
  "base64 0.21.7",
  "bincode",
  "borsh 1.6.1",
@@ -411,6 +412,7 @@ dependencies = [
  "anchor-lang-idl-spec",
  "anyhow",
  "heck 0.3.3",
+ "regex",
  "serde",
  "serde_json",
  "sha2 0.10.9",
@@ -434,6 +436,7 @@ checksum = "6940253e80acf0f8e83b1ebd9c4772c496aedcce6ad19aa85ce75d0b6b188298"
 dependencies = [
  "anyhow",
  "bs58",
+ "cargo_toml",
  "heck 0.3.3",
  "proc-macro2",
  "quote",
@@ -1822,6 +1825,16 @@ dependencies = [
  "serde",
  "serde_json",
  "thiserror 1.0.69",
+]
+
+[[package]]
+name = "cargo_toml"
+version = "0.19.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a98356df42a2eb1bd8f1793ae4ee4de48e384dd974ce5eac8eee802edb7492be"
+dependencies = [
+ "serde",
+ "toml 0.8.23",
 ]
 
 [[package]]

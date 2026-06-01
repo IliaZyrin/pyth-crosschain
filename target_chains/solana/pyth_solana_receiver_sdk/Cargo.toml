@@ -13,6 +13,7 @@ name = "pyth_solana_receiver_sdk"
 
 [features]
 lazer = []
+idl-build = ["anchor-lang/idl-build", "pythnet-sdk/idl-build"]
 
 [dependencies]
 anchor-lang = "1.0.2"
